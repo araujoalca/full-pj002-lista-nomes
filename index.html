@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    
     <title>Lista Nomes</title>
 </head>
 <body>
 
-    <main>
+    <main id="principal">
         <div>
             <h1>Usuários</h1>
         </div>
 
         <section class="pesquisa">
             <form>
-                <input type="text" name="nome" placeholder="Pesquise um nome" required>
+                <input class="texto" type="text" name="nome" placeholder="Pesquise um nome" required>
                 <button class="pesquisar" type="submit">Pesquisar</button>
                 <button class="listar" type="submit">Carregar</button>
             </form>

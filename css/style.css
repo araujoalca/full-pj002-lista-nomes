@@ -1,0 +1,79 @@
+#principal {
+    margin: 0 auto;
+    padding: 40px 40px 0;
+    max-width: 1200px;
+    min-width: 400px;
+}
+
+.pesquisa {
+    margin: 5px 0 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+input.texto, button {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input.texto:focus {
+    outline: none;
+}
+
+.pesquisar {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+
+.pesquisar:hover {
+    background-color: #3195ff; /* fundo um pouco mais claro ao passar o mouse */
+}
+
+.pesquisar:active {
+    background-color: #0277f3; /* fundo mais escuro para indicar o clique */
+    border: 2px solid #003670;
+    padding: 3px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
+}
+
+.listar {
+    background-color: #cf912c;
+    color: #1f1100;
+    cursor: pointer;
+}
+
+.listar:hover {
+    background-color: #f1a831; /* fundo um pouco mais claro ao passar o mouse */
+}
+
+.listar:active {
+    background-color: #c48117; /* fundo mais escuro para indicar o clique */
+    border: 2px solid #83560d;
+    padding: 3px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
+}
+
+ul {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+li {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+
+li:active {
+    background-color: #cecccc; /* fundo mais escuro para indicar o clique */
+    border: 2px solid #7e7e7e;
+    padding: 3px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
+}
