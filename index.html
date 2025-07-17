@@ -6,7 +6,7 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <title>Lista Nomes</title>
 </head>
 <body>
@@ -19,19 +19,13 @@
         <section class="pesquisa">
             <form>
                 <input class="texto" type="text" name="nome" placeholder="Pesquise um nome" required>
-                <button class="pesquisar" type="submit">Pesquisar</button>
-                <button class="listar" type="submit">Carregar</button>
+                <button class="pesquisar" type="button" onclick="realizarBusca()">Pesquisar</button>
+                <button class="listar" type="button" onclick="renderizarLista()">Carregar</button>
             </form>
         </section>
 
         <section class="lista">
-            <ul>
-                <li>João</li>
-                <li>Maria</li>
-                <li>José</li>
-                <li>Ana</li>
-                <li>Carlos</li>
-            </ul>
+            <ul></ul>
         </section>
 
 
