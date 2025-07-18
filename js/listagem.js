@@ -28,10 +28,7 @@ function realizarBusca() {
             }
         }
 
-
-        if (listGroup.innerHTML.trim() !== '') {
-            listGroup.style.display = 'block';
-        } else {
+        if (listGroup.innerHTML.trim() == '') {
             limparLista(); // Limpa a lista se não houver resultados
         }
 
@@ -46,14 +43,6 @@ function renderizarLista() {
         li.className = 'list-group-item';
         li.textContent = pessoas[indice];
         listGroup.appendChild(li);
-    }
-
-    // Se a lista for preenchida com sucesso (ou seja, tem conteúdo)
-    if (listGroup.innerHTML.trim() !== '') { // Verifica se há conteúdo após preencher
-        listGroup.style.display = 'block'; // Ou 'flex', se for o caso do seu CSS
-        // } else {
-        //     // Se por algum motivo não houver dados, garanta que ela esteja escondida
-        //     listGroup.style.display = 'none';
     }
 }
 
