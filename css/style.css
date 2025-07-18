@@ -14,6 +14,10 @@
     border-bottom: 1px solid #ccc;
 }
 
+input.texto {
+    color: #0357b1;
+}
+
 input.texto, button {
     padding: 8px;
     border: 1px solid #ccc;
@@ -22,6 +26,7 @@ input.texto, button {
 
 input.texto:focus {
     outline: none;
+    background-color: #d2e8ff;
 }
 
 .pesquisar {
@@ -38,7 +43,7 @@ input.texto:focus {
 .pesquisar:active {
     background-color: #0277f3; /* fundo mais escuro para indicar o clique */
     border: 2px solid #003670;
-    padding: 3px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
+    padding: 5px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
 }
 
 .listar {
@@ -54,7 +59,24 @@ input.texto:focus {
 .listar:active {
     background-color: #c48117; /* fundo mais escuro para indicar o clique */
     border: 2px solid #83560d;
-    padding: 3px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
+    padding: 5px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
+}
+
+.limpar {
+    background-color: #ff809b;
+    color: #1f0007;
+    cursor: pointer;
+}
+
+
+.limpar:hover {
+    background-color: #ffa5b9; /* fundo um pouco mais claro ao passar o mouse */
+}
+
+.limpar:active {
+    background-color: #ff4b72; /* fundo mais escuro para indicar o clique */
+    border: 2px solid #42000e;
+    padding: 5px; /* Ajusta o padding para compensar a borda e manter o tamanho visual */
 }
 
 ul {

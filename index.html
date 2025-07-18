@@ -18,18 +18,21 @@
 
         <section class="pesquisa">
             <form>
-                <input class="texto" type="text" name="nome" placeholder="Pesquise um nome" required>
-                <button class="pesquisar" type="button" onclick="realizarBusca()">Pesquisar</button>
+                <input type="text" class="texto" id="caixaDePesquisa" name="nome" placeholder="Pesquise um nome" required>
+                <button type="button" class="pesquisar" id="botaoPesquisar" onclick="realizarBusca()">Pesquisar</button>
                 <button class="listar" type="button" onclick="renderizarLista()">Carregar</button>
+                <button class="limpar" type="button" onclick="limparLista()">Limpar</button>
             </form>
         </section>
 
         <section class="lista">
-            <ul></ul>
+            <ul class="list-group"><li>Lista vazia...</li></ul>
         </section>
 
 
     </main>
+
+    <script src="js/listagem.js"></script>
 
 </body>
 </html>
